@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/signup.css">
+        <title>JLAB Signup</title>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+        <script defer src="js/signup.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    </head>
+    <div id="signup-box">
+        <div id="signup-title-div">
+            <h1 id="signup-title">JLAB Signup</h1>
+            <div id="signup-title-underline"></div>
+        </div>
+        <div id="signup-form-div">
+            <form id="signup-form">
+                <div id="signup-form-fullname-div">
+                    <p id="signup-form-fullname-text">Full Name</p>
+                    <input type="text" id="signup-form-fullname-input" placeholder="Full Name" class="input-1">
+                </div>
+                <div id="signup-form-email-div">
+                    <p id="signup-form-email-text">Email</p>
+                    <input type="text" id="signup-form-email-input" placeholder="Email" class="input-1">
+                </div>
+                <div id="signup-form-username-div">
+                    <p id="signup-form-username-text">Username</p>
+                    <input type="text" id="signup-form-username-input" placeholder="Username" class="input-1">
+                </div>
+                <div id="signup-form-password-div">
+                    <p id="signup-form-password-text">Password</p>
+                    <input type="password" id="signup-form-password-input" placeholder="Password" class="input-1">
+                </div>
+                <div id="signup-form-submit-div">
+                    <button id="signup-form-submit-button" onclick="userSignup()">Signup</button><br>
+                </div>
+                <div id="signup-form-login-div">
+                    <p>Already have an account?</p>
+                    <button onclick="moveToLogin()" id="signup-form-login-button">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</html>
