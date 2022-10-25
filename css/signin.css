@@ -1,0 +1,54 @@
+.label{
+    font-size: 23px;
+    padding-top: 25px;
+    color: black;
+    margin-bottom: 5px;
+    width: 33%;
+    padding-left: 30px;
+}
+.input{
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 7px;
+    margin-right: 0px;
+}
+
+.btnSubmit{
+    margin: 20px;
+    margin-left:40%;
+    width: 187px;
+    color:aliceblue;
+    height: 35px;
+    border: none;
+}
+#exp{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.logo{
+    margin: 10px;
+    margin-top: 40px;
+}
+.sp {
+    border-radius: 0px;
+    margin-left: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.exp{
+    padding-top: 10px;
+    font-size: 120%;
+}
+h1{
+    padding-top: 10px;
+}
+#signupmain{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+#title{
+    display: block;
+    margin-left:40%;
+}

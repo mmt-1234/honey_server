@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+
+    <!--    Bootstrap   -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <title>Sign up for Seowon TimeTable</title>
+</head>
+<body class="bg-dark">
+    <div class="container bg-dark">
+    <div class="bg-light center-block w-50 align-self-center text-dark" id="signupmain">
+        <form action="/wamp/signup.php" method="POST">
+            <label class="label" id="title" for="title">Sign in</label>
+            <label class="label remove2" for="Username">Username</label>
+            <input class='input remove2' tabindex="4" type="text" name="Username" id="Username" placeholder="Username" >
+            <label class="label remove2" for="Password">Password</label>
+            <input class='input remove2' tabindex="5" type="password" name="Password" id="Password" placeholder="Password" >
+            <input class="btnSubmit bg-dark" type="submit" id="btnSubmitID" value="Sign up" ><button class="btnSubmit bg-dark" id="btnSubmitID"><a href="">Sign up</a></button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
